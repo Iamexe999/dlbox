@@ -1,3 +1,24 @@
+# dlbox runtime data
 downloads/
 logs/
-meta/
+meta/*.aria2
+meta/session.txt
+
+# aria2 control files
+*.aria2
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
